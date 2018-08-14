@@ -12,11 +12,6 @@ matrix:
   allow_failures:
   - julia_version: latest
 
-branches:
-  only:
-    - master
-    - /release-.*/
-
 notifications:
   - provider: Email
     on_build_success: false
